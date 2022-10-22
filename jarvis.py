@@ -50,6 +50,11 @@ def jarvis(data):
         speak(ctime())
     if "play Alan Walker" in data:
         kit.playonyt("https://youtu.be/HhjHYkPQ8F0")
+    if "play clean" in data:
+        kit.playonyt("https://youtu.be/nLnp0tpZ0ok")
+    if "send a message to Khushi" in data:
+        kit.sendwhatmsg("+916280512523", "Hi bhai kaise ho", 1, 33, 10, True, 2)
+        print("OOK")
 
 # initialization
 time.sleep(2)
